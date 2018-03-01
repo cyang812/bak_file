@@ -1,0 +1,13 @@
+[
+	// delete line
+	{ "keys": ["alt+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+	//toggle comment line
+	{ "keys": ["ctrl+d"], "command": "toggle_comment", "args": { "block": false } },
+
+	//goto_definition
+	{ "keys": ["alt+1"], "command": "goto_definition" },
+
+	//jump_back
+	{ "keys": ["alt+2"], "command": "jump_back" },
+]

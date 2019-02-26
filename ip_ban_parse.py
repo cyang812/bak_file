@@ -2,7 +2,7 @@
 # @Author: cyang
 # @Date:   2018-06-09 10:57:03
 # @Last Modified by:   cyang
-# @Last Modified time: 2018-06-09 11:52:05
+# @Last Modified time: 2018-06-13 12:02:53
 
 out_file_name = 'merge.txt'
 
@@ -40,6 +40,7 @@ def find_duplicate(in_file_name):
 	for key in ip_dict:
 		if ip_dict[key] > 1:
 			print(key, ip_dict[key])
+			# print(key, ip_dict.get(key)) # 字典的 get 方法
 
 	# print(ip_dict)				 		
 

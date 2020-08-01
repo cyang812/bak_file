@@ -1,4 +1,15 @@
 [
+	
+	{
+	"keys": ["f5"],
+	"caption": "SublimeREPL: Python - RUN current file",
+	"command": "run_existing_window_command",
+	"args": {
+	"id": "repl_python_run",
+	"file": "config/Python/Main.sublime-menu"
+		}
+	},
+
 	// delete line
 	{ "keys": ["alt+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 
@@ -10,4 +21,8 @@
 
 	//jump_back
 	{ "keys": ["alt+2"], "command": "jump_back" },
+
+	{ "keys": ["ctrl+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+down"], "command": "swap_line_down" },
+
 ]

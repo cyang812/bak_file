@@ -12,6 +12,7 @@ set noexpandtab
 
 " enable search highlight
 set hlsearch
+set incsearch
 
 " Mapping to reload configuration"
 nmap <leader>so :source $HOME\_vimrc<CR>

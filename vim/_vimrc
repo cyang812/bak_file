@@ -5,6 +5,11 @@ set relativenumber
 set linespace=4
 let mapleader = ','
 
+" replace space to tab
+set ts=4
+set noexpandtab
+%retab
+
 " Mapping to reload configuration"
 nmap <leader>so :source $HOME\_vimrc<CR>
 

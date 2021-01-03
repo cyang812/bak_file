@@ -1,0 +1,10 @@
+ {
+ 	"apply_with_dash_hack_syntaxes":["source.scss","source.sass","source.css","text.html"],
+    //必须加上"text.html"才能关联html带连接符“-”的类名
+	
+	"return_nothing_on_empty_prefix": true,
+	
+	"do_not_search_in_current_view": false,
+	
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+}
